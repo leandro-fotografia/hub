@@ -22,13 +22,13 @@ function setAssets() {
     wp_enqueue_script('bootstrap', ASSETS.'lib/bootstrap/js/bootstrap.bundle.min.js');
     wp_enqueue_script('easing', ASSETS.'lib/easing/easing.min.js');
     wp_enqueue_script('mobile', ASSETS.'lib/mobile-nav/mobile-nav.js');
-    wp_enqueue_script('wow', ASSETS.'lib/wow/wow.min.js');
+    wp_enqueue_script('wow', ASSETS.'lib/wow/wow.min.js', '', '', true );
     wp_enqueue_script('waypoints', ASSETS.'lib/waypoints/waypoints.min.js');
     wp_enqueue_script('counterup', ASSETS.'lib/counterup/counterup.min.js');
-    wp_enqueue_script('owlcarousel', ASSETS.'lib/owlcarousel/owl.carousel.min.js');
+    wp_enqueue_script('owlcarousel', ASSETS.'lib/owlcarousel/owl.carousel.min.js', '', '', true );
     wp_enqueue_script('isotope', ASSETS.'lib/isotope/isotope.pkgd.min.js');
     wp_enqueue_script('lightbox', ASSETS.'lib/lightbox/js/lightbox.min.js');
     wp_enqueue_script('contact', ASSETS.'contactform/contactform.js');
-    wp_enqueue_script('main', ASSETS.'js/main.js');
+    wp_enqueue_script('main', ASSETS.'js/main.js', '', '', true );
 }
 add_action('wp_enqueue_scripts', 'setAssets');
