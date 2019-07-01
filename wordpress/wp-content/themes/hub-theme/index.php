@@ -109,7 +109,7 @@ $fields = get_fields($id);
     <!--==========================
       Team Section
     ============================-->
-    <?php var_dump($fields); ?>
+    
     <section id="team">
         <div class="container">
             <div class="section-header">
