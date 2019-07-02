@@ -14,7 +14,7 @@ get_header(); ?>
             <div class="intro-info">
                 <h2>Faça nosso teste<br><span>vocacional!</span></h2>
                 <div>
-                    <a data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"
+                    <a data-toggle="modal" data-target="#exampleModal"
                         class="btn-get-started scrollto">Começar o teste</a>
                     <a href="#services" class="btn-services scrollto">Nossos serviços</a>
                 </div>

@@ -14,6 +14,7 @@ function setAssets() {
     wp_enqueue_style('ionicons', ASSETS. 'lib/ionicons/css/ionicons.min.css');
     wp_enqueue_style('owlcarousel', ASSETS. 'lib/owlcarousel/assets/owl.carousel.min.css');
     wp_enqueue_style('lightbox', ASSETS. 'lib/lightbox/css/lightbox.min.css');
+    wp_enqueue_style('style-theme', get_stylesheet_directory_uri() . '/style.css');
     wp_enqueue_style('style', ASSETS. 'css/style.css');
 
     // Js's

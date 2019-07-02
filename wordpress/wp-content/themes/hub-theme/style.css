@@ -1414,3 +1414,22 @@ h6 {
     background-color: #feca0c;
     border: none;
 }
+
+/**
+* custom
+*/
+
+.wpcf7-form-control-wrap.noticias {
+    display: block;
+    height: 30px;
+}
+
+.form-check .form-check {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+}
+
+.wpcf7-form-control.wpcf7-checkbox.form-check-input {
+    display: block;
+}
