@@ -17,7 +17,7 @@
                     </button>
                 
                 <div class="modal-body">
-                    <?= do_shortcode('[contact-form-7 id="72" title="Contact form 1"]'); ?>
+                    <?= do_shortcode('[contact-form-7 id="5" title="Contact form 1"]'); ?>
                 </div>                
             </div>
         </div>
@@ -27,7 +27,7 @@
             
 
             document.addEventListener( 'wpcf7mailsent', function( event ) {
-                console.log('test');
+                window.location.assign('/quiz');
             }, false );
         })(jQuery);
     </script>
