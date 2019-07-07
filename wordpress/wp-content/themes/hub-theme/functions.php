@@ -31,5 +31,25 @@ function setAssets() {
     wp_enqueue_script('lightbox', ASSETS.'lib/lightbox/js/lightbox.min.js');
     wp_enqueue_script('contact', ASSETS.'contactform/contactform.js');
     wp_enqueue_script('main', ASSETS.'js/main.js', '', '', true );
+
+    // Teste vocacional
+    wp_enqueue_script('teste-vocacional-js', ASSETS.'js/teste-vocacional.js');
+    wp_enqueue_style('teste-vocacional-css', ASSETS.'css/teste-vocacional.css');
 }
 add_action('wp_enqueue_scripts', 'setAssets');
+
+function phpinclude($file) {
+    $param = shortcode_atts(array (
+        'file' => 'file'
+    ), $file);
+
+    ob_start();
+    $dir = get_stylesheet_directory();
+    include ($dir . "/assets/{$param['file']}.php");
+    $content = ob_get_contents();
+    ob_end_clean();
+
+    return $content;
+}
+
+add_shortcode('phpinclude', 'phpinclude');
