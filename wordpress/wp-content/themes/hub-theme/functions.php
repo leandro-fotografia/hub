@@ -33,6 +33,7 @@ function setAssets() {
     wp_enqueue_script('main', ASSETS.'js/main.js', '', '', true );
 
     // Teste vocacional
+    wp_enqueue_script('teste-vocacional-inicio', ASSETS.'js/form-inicio-teste.js');
     wp_enqueue_script('teste-vocacional-js', ASSETS.'js/teste-vocacional.js');
     wp_enqueue_style('teste-vocacional-css', ASSETS.'css/teste-vocacional.css');
 }
@@ -53,3 +54,14 @@ function phpinclude($file) {
 }
 
 add_shortcode('phpinclude', 'phpinclude');
+
+function salva_dados_teste() {
+    $usuario = $_POST['usuario'];
+
+    global $wpdb;
+    $wpdb->insert('teste_vocacional_usuarios', $usuario);
+}
+salva_dados_teste();
+
+add_action('wp_ajax_salva_dados_teste', 'salva_dados_teste');
+add_action('wp_ajax_nopriv_salva_dados_teste', 'salva_dados_teste');
