@@ -36,6 +36,10 @@ function setAssets() {
     wp_enqueue_script('teste-vocacional-inicio', ASSETS.'js/form-inicio-teste.js');
     wp_enqueue_script('teste-vocacional-js', ASSETS.'js/teste-vocacional.js');
     wp_enqueue_style('teste-vocacional-css', ASSETS.'css/teste-vocacional.css');
+
+    // Setar ajaxurl
+    wp_localize_script( 'teste-vocacional-inicio', 'wpobj',
+        array( 'ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
 }
 add_action('wp_enqueue_scripts', 'setAssets');
 
@@ -56,12 +60,21 @@ function phpinclude($file) {
 add_shortcode('phpinclude', 'phpinclude');
 
 function salva_dados_teste() {
-    $usuario = $_POST['usuario'];
+    $message = '';
+    
+    try {
+        global $wpdb;
+        $usuario = $_POST['usuario'];
+        $wpdb->insert('teste_vocacional_usuarios', $usuario);
+        
+        $message = 'Dados salvos com sucesso!';
+    } catch (\Exepction $e) {
+        $message = "Houve um erro: {$e->getMessage()}";
+    }
 
-    global $wpdb;
-    $wpdb->insert('teste_vocacional_usuarios', $usuario);
+    echo json_encode(['message' => $message]);
+    exit;
 }
-salva_dados_teste();
 
 add_action('wp_ajax_salva_dados_teste', 'salva_dados_teste');
 add_action('wp_ajax_nopriv_salva_dados_teste', 'salva_dados_teste');

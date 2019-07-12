@@ -2,7 +2,7 @@
   <div class="container">
     <p> <img alt="Parabéns" src="<?php echo ASSETS . "img/parabens.png"; ?>" > </p>
     <p> A área do conhecimento que você mais se identifica é: </p>
-    <span> CIÊNCIAS HUMANAS E SOCIAIS </span>
+    <span class="course-title-label"> CIÊNCIAS HUMANAS E SOCIAIS </span>
     <p id="conheca-cursos"> Conheça os cursos que podem lhe atender <i class="fa fa-angle-double-down"></i> </p>
     <p> Aqui oferecemos o curso certo e a mobilidade de ensino que se encaixa melhor para você!</p>
   </div>
@@ -13,45 +13,45 @@
       <h3>GRADUAÇÃO <br><span class="strong">PRESENCIAL</span></h3>
       <p> Para você que prefere ter interação diário com os professores e tem disponibilidade para frequentar aulas todos os dias. </p>
       <ul>
-        <li><a href="http://guiadeprofissoes.cruzeirodosuleducacional.edu.br/artes-visuais/" target="_blank">ARTES VISUAIS (Licenciatura)</a></li>
-        <li><a href="http://guiadeprofissoes.cruzeirodosuleducacional.edu.br/direito/" target="_blank">DIREITO</li>
-        <li><a href="http://guiadeprofissoes.cruzeirodosuleducacional.edu.br/geografia/" target="_blank">GEOGRAFIA (Licenciatura)</a></li>
-        <li><a href="http://guiadeprofissoes.cruzeirodosuleducacional.edu.br/historia/" target="_blank">HISTÓRIA (Licenciatura)</a></li>
-        <li><a href="http://guiadeprofissoes.cruzeirodosuleducacional.edu.br/letras-portugues-e-ingles/" target="_blank">LETRAS - Português e Inglês (Licenciatura)</a></li>
-        <li><a href="http://guiadeprofissoes.cruzeirodosuleducacional.edu.br/letras-portjap/" target="_blank">LETRAS - Português e Japonês (Licenciatura)</a></li>
-        <li><a href="http://guiadeprofissoes.cruzeirodosuleducacional.edu.br/pedagogia/" target="_blank">PEDAGOGIA (Licenciatura)</a></li>
-        <li><a href="http://guiadeprofissoes.cruzeirodosuleducacional.edu.br/relacoes-internacionais/" target="_blank">RELAÇÕES INTERNACIONAIS</a></li>
-        <li><a href="http://guiadeprofissoes.cruzeirodosuleducacional.edu.br/servico-social/" target="_blank">SERVIÇO SOCIAL</a></li>
+        <li><a href="" target="_blank">ARTES VISUAIS (Licenciatura)</a></li>
+        <li><a href="" target="_blank">DIREITO</li>
+        <li><a href="" target="_blank">GEOGRAFIA (Licenciatura)</a></li>
+        <li><a href="" target="_blank">HISTÓRIA (Licenciatura)</a></li>
+        <li><a href="" target="_blank">LETRAS - Português e Inglês (Licenciatura)</a></li>
+        <li><a href="" target="_blank">LETRAS - Português e Japonês (Licenciatura)</a></li>
+        <li><a href="" target="_blank">PEDAGOGIA (Licenciatura)</a></li>
+        <li><a href="" target="_blank">RELAÇÕES INTERNACIONAIS</a></li>
+        <li><a href="" target="_blank">SERVIÇO SOCIAL</a></li>
       </ul>
     </div>
     <div class="column-cursos col-md-4">
       <h3>GRADUAÇÃO <br><span class="strong">SEMIPRESENCIAL</span></h3>
       <p> Para você que prefere ter interação diário com os professores e tem disponibilidade para frequentar aulas todos os dias. </p>
       <ul>
-        <li><a href="http://guiadeprofissoes.cruzeirodosuleducacional.edu.br/artes-visuais/" target="_blank">ARTES VISUAIS (Licenciatura)</a></li>
-        <li><a href="http://guiadeprofissoes.cruzeirodosuleducacional.edu.br/direito/" target="_blank">DIREITO</a></li>
-        <li><a href="http://guiadeprofissoes.cruzeirodosuleducacional.edu.br/geografia/" target="_blank">GEOGRAFIA (Licenciatura)</a></li>
-        <li><a href="http://guiadeprofissoes.cruzeirodosuleducacional.edu.br/historia/" target="_blank">HISTÓRIA (Licenciatura)</a></li>
-        <li><a href="http://guiadeprofissoes.cruzeirodosuleducacional.edu.br/letras-portugues-e-ingles/" target="_blank">LETRAS - Português e Inglês (Licenciatura)</a></li>
-        <li><a href="http://guiadeprofissoes.cruzeirodosuleducacional.edu.br/letras-portjap/" target="_blank">LETRAS - Português e Japonês (Licenciatura)</a></li>
-        <li><a href="http://guiadeprofissoes.cruzeirodosuleducacional.edu.br/pedagogia/" target="_blank">PEDAGOGIA (Licenciatura)</a></li>
-        <li><a href="http://guiadeprofissoes.cruzeirodosuleducacional.edu.br/relacoes-internacionais/" target="_blank">RELAÇÕES INTERNACIONAIS</a></li>
-        <li><a href="http://guiadeprofissoes.cruzeirodosuleducacional.edu.br/servico-social/" target="_blank">SERVIÇO SOCIAL</a></li>
+        <li><a href="" target="_blank">ARTES VISUAIS (Licenciatura)</a></li>
+        <li><a href="" target="_blank">DIREITO</a></li>
+        <li><a href="" target="_blank">GEOGRAFIA (Licenciatura)</a></li>
+        <li><a href="" target="_blank">HISTÓRIA (Licenciatura)</a></li>
+        <li><a href="" target="_blank">LETRAS - Português e Inglês (Licenciatura)</a></li>
+        <li><a href="" target="_blank">LETRAS - Português e Japonês (Licenciatura)</a></li>
+        <li><a href="" target="_blank">PEDAGOGIA (Licenciatura)</a></li>
+        <li><a href="" target="_blank">RELAÇÕES INTERNACIONAIS</a></li>
+        <li><a href="" target="_blank">SERVIÇO SOCIAL</a></li>
       </ul>
     </div>
     <div class="column-cursos col-md-4">
       <h3>GRADUAÇÃO <br><span class="strong">Á DISTÂNCIA</span></h3>
       <p> Para você que prefere ter interação diário com os professores e tem disponibilidade para frequentar aulas todos os dias. </p>
       <ul>
-        <li><a href="http://guiadeprofissoes.cruzeirodosuleducacional.edu.br/artes-visuais/" target="_blank">ARTES VISUAIS (Licenciatura)</a></li>
-        <li><a href="http://guiadeprofissoes.cruzeirodosuleducacional.edu.br/direito/" target="_blank">DIREITO</a></li>
-        <li><a href="http://guiadeprofissoes.cruzeirodosuleducacional.edu.br/geografia/" target="_blank">GEOGRAFIA (Licenciatura</a>)</li>
-        <li><a href="http://guiadeprofissoes.cruzeirodosuleducacional.edu.br/historia/" target="_blank">HISTÓRIA (Licenciatura)</a></li>
-        <li><a href="http://guiadeprofissoes.cruzeirodosuleducacional.edu.br/letras-portugues-e-ingles/" target="_blank">LETRAS - Português e Inglês (Licenciatura)</a></li>
-        <li><a href="http://guiadeprofissoes.cruzeirodosuleducacional.edu.br/letras-portjap/" target="_blank">LETRAS - Português e Japonês (Licenciatura)</a></li>
-        <li><a href="http://guiadeprofissoes.cruzeirodosuleducacional.edu.br/pedagogia/" target="_blank">PEDAGOGIA (Licenciatura)</a></li>
-        <li><a href="http://guiadeprofissoes.cruzeirodosuleducacional.edu.br/relacoes-internacionais/" target="_blank">RELAÇÕES INTERNACIONAIS</a></li>
-        <li><a href="http://guiadeprofissoes.cruzeirodosuleducacional.edu.br/servico-social/" target="_blank">SERVIÇO SOCIAL</a></li>
+        <li><a href="" target="_blank">ARTES VISUAIS (Licenciatura)</a></li>
+        <li><a href="" target="_blank">DIREITO</a></li>
+        <li><a href="" target="_blank">GEOGRAFIA (Licenciatura</a>)</li>
+        <li><a href="" target="_blank">HISTÓRIA (Licenciatura)</a></li>
+        <li><a href="" target="_blank">LETRAS - Português e Inglês (Licenciatura)</a></li>
+        <li><a href="" target="_blank">LETRAS - Português e Japonês (Licenciatura)</a></li>
+        <li><a href="" target="_blank">PEDAGOGIA (Licenciatura)</a></li>
+        <li><a href="" target="_blank">RELAÇÕES INTERNACIONAIS</a></li>
+        <li><a href="" target="_blank">SERVIÇO SOCIAL</a></li>
       </ul>
     </div>
   </div>
