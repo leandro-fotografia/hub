@@ -1,9 +1,15 @@
 <?php
     global $wpdb;
     $data = $wpdb->get_results('select * from teste_vocacional_usuarios');
+    $link = plugin_dir_url(__FILE__) . 'extract-data.php';
 ?>
 <section class="wrap">
-    <h1> Lista de dados do teste vocacional </h1>
+    <h1>
+        Lista de dados do teste vocacional
+        <p class="search-box">
+            <a href="<?=$link?>" class="button button-primary"> Download dos dados </a>
+        </p>
+    </h1>
     <br>
     <table class="wp-list-table widefat fixed striped posts cf7d-admin-table vertical">
         <thead>
